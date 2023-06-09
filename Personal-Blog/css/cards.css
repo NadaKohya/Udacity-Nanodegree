@@ -14,7 +14,7 @@
 ::-webkit-scrollbar-track{
     border-radius: 1px;
 }
-::-webkit-scrollbar-thumb{
+.cards-container::-webkit-scrollbar-thumb{
     background-color: #616bf5;
 border-radius: 10px;
 }
@@ -56,6 +56,9 @@ height: 13em;
     overflow-y: hidden;
     overflow-x: scroll;
    }
+   .cards-container::-webkit-scrollbar{
+    height: 5px;
+}
    .card{
     width: 12em;
     height: 90%;
