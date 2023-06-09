@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    height: 2em;
+    width: 100%;
+    position: fixed;
+    background-color: #191A46;
+    padding: .5em 1em 0.2em 1em;
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+}
+.blog-text{
+    background: -webkit-linear-gradient(rgb(187, 205, 255), #888DC5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu-links{
+display: flex;
+justify-content: space-around;
+width: 40%;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color: #888DC5;
+}
+@media screen and (min-width:641px) and (max-width:1007px) {
+.menu-links{
+    padding: 0 3em;
+}
+}
+@media (max-width:640px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height: 17em;
+        padding: .5em;
+    text-align:center;
+    }
+    .logo{
+        font-size: 2em;
+    }
+    .menu-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        width: 100%;
+        font-size: 1.3em;
+        text-align: center;
+        }
+}

@@ -1,0 +1,21 @@
+@import "header.css";
+@import "footer.css";
+@import "top-section.css";
+@import "cards.css";
+
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 4em;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header header header header header header header header header"
+    "top top top top top top top top top top top top"
+    "footer footer footer footer footer footer footer footer footer footer footer footer"
+    ;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:640px) {
+}
