@@ -3,8 +3,6 @@ header{
     justify-content: space-between;
     grid-area: header;
     height: 2em;
-    width: 100%;
-    position: fixed;
     background-color: #191A46;
     padding: .5em 1em 0.2em 1em;
 }
@@ -29,18 +27,23 @@ width: 40%;
 .link:hover{
     color: #888DC5;
 }
-@media screen and (min-width:641px) and (max-width:1007px) {
-.menu-links{
+@media (min-width:640px) and (max-width:1010px) {
+header{
+    width: 96.5%;
+}
+    .menu-links{
     padding: 0 3em;
 }
 }
-@media (max-width:640px) {
+@media screen and (max-width:640px) {
     header{
         display: flex;
         flex-direction: column;
         justify-content:space-between;
+        align-items: center;
+        width: 100%;
         height: 17em;
-        padding: .5em;
+        padding: .5em 0;
     text-align:center;
     }
     .logo{
@@ -51,7 +54,7 @@ width: 40%;
         flex-direction: column;
         justify-content: space-between;
         height: 80%;
-        width: 100%;
+        width: 50%;
         font-size: 1.3em;
         text-align: center;
         }

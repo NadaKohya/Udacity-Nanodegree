@@ -6,16 +6,19 @@
 body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    gap: 4em;
-    grid-template-rows: auto;
+    grid-template-rows: 4em 23em 30em 4em;
     grid-template-areas:
     "header header header header header header header header header header header header"
     "top top top top top top top top top top top top"
+    "cards-container cards-container cards-container cards-container cards-container cards-container cards-container cards-container cards-container cards-container cards-container cards-container"
     "footer footer footer footer footer footer footer footer footer footer footer footer"
     ;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media (max-width:640px) {
+@media screen and (max-width: 640px) {
+    body{
+        grid-template-rows: 20em 25em 25em 4em;
+        row-gap: 1em;
+    }
 }
