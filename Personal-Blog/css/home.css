@@ -20,6 +20,9 @@ body::-webkit-scrollbar-thumb{
     background-color: #191A46;
 border-radius: 10px;
 }
+body::-webkit-scrollbar{
+    height: 5px;
+}
 @media screen and (max-width: 640px) {
     body{
         grid-template-rows: 20em 25em 25em 4em;
