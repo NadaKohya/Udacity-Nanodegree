@@ -46,6 +46,12 @@ height: 13em;
     text-decoration:underline;
 }
 
+button{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
 @media screen and (max-width:640px){
    .cards-container{
     display: flex;
