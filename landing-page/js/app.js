@@ -63,9 +63,9 @@ for (let i = 0; i < menuLinks.length; i++) {
 // }
 
 // scroll to top
-function scrollToTop(){
-    document.documentElement.ScrollTo({
-        top:0,
-        behavior:"smooth"
-    })
-}
+// function scrollToTop(){
+//     document.documentElement.ScrollTo({
+//         top:0,
+//         behavior:"smooth"
+//     })
+// }
